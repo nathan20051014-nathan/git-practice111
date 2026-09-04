@@ -7,4 +7,9 @@ def start_robot():
     print(f"Current speed: {speed}")
 
 
+def start_motor():
+    print("Motor started")
+
+
 start_robot()
+start_motor()
