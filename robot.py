@@ -12,6 +12,10 @@ def start_motor():
     print("Motor started")
 
 
+def stop_robot():
+    print(f"{robot_name} stopped")
+
+
 start_robot()
 start_motor()
 
@@ -22,4 +26,5 @@ def read_temperature():
 
 start_robot()
 read_temperature()
+stop_robot()
 
